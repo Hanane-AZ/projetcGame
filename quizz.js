@@ -3,9 +3,9 @@ const btnStart = document.getElementById("start-btn");
 const btns = document.querySelectorAll(".btn.answer");
 const scoreElement = document.getElementById("score");
 const etoile = document.getElementById("etoiles");
-const starImage = "<img src=\"image/giphyStar.gif\" width='25px' height='25px'></img>";
-const princess = "<br /><img src=\"Gif princess/princessFree.gif\" width='400px' height='400px'></img>";
-const princessC = "<br /><img src=\"Gif princess/princessCry.gif\" width='200px' height='150px'></img>";
+const starImage = "<img src=\"./image/giphyStar.gif\" width='25px' height='25px'></img>";
+const princess = "<br /><img src=\"./GifPrincess/princessFree.gif\" width='400px' height='400px'></img>";
+const princessC = "<br /><img src=\"./GifPrincess/princessCry.gif\" width='200px' height='150px'></img>";
 
 let quizz;
 
@@ -22,12 +22,12 @@ class Question { /* definit la class question */
 }
 
 let myQuestions = [
-  new Question("", ["image/aladdin.jpg", "image/alice.jpg", "image/monster.jpg","image/pocahontas.jpg"], "image/aladdin.jpg", "sons/aladin.mp3"),
-  new Question("", ["image/alice.jpg", "image/kingLion.jpg", "image/sirene.jpg", "image/aladdin.jpg"], "image/kingLion.jpg", "sons/king.mp3"),
-  new Question("", ["image/blanche.jpg", "image/pocahontas.jpg", "image/reineNeige.jpg", "image/alice.jpg"], "image/reineNeige.jpg", "sons/reine.mp3"),
-  new Question("", ["image/blanche.jpg", "image/pocahontas.jpg", "image/reineNeige.jpg", "image/alice.jpg"], "image/pocahontas.jpg", "sons/poca.mp3"),
-  new Question("", ["image/aladdin.jpg", "image/alice.jpg", "image/monster.jpg","image/pocahontas.jpg"], "image/aladdin.jpg", "sons/aladin.mp3"),
-  new Question("", ["image/alice.jpg", "image/kingLion.jpg", "image/sirene.jpg", "image/aladdin.jpg"], "image/kingLion.jpg", "sons/aladin.mp3"),
+  new Question("", ["./image/aladdin.jpg", "./image/alice.jpg", "./image/monster.jpg","./image/pocahontas.jpg"], "./image/aladdin.jpg", "./sons/aladin.mp3"),
+  new Question("", ["./image/alice.jpg", "./image/kingLion.jpg", "./image/sirene.jpg", "./image/aladdin.jpg"], "./image/kingLion.jpg", "./sons/king.mp3"),
+  new Question("", ["./image/blanche.jpg", "./image/pocahontas.jpg", "./image/reineNeige.jpg", "./image/alice.jpg"], "./image/reineNeige.jpg", "./sons/reine.mp3"),
+  new Question("", ["./image/blanche.jpg", "./image/pocahontas.jpg", "./image/reineNeige.jpg", "./image/alice.jpg"], "./image/pocahontas.jpg", "./sons/poca.mp3"),
+  new Question("", ["./image/aladdin.jpg", "./image/alice.jpg", "./image/monster.jpg","./image/pocahontas.jpg"], "./image/aladdin.jpg", "./sons/aladin.mp3"),
+  new Question("", ["./image/alice.jpg", "./image/kingLion.jpg", "./image/sirene.jpg", "./image/aladdin.jpg"], "./image/kingLion.jpg", "./sons/aladin.mp3"),
   
 ];
 
