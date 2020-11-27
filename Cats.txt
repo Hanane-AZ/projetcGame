@@ -1,0 +1,24 @@
+
+// by Wail
+class Chat{
+}
+
+class Chats {
+    constructor(nombreDeChats){
+        this.chats = [];
+
+        for(let i = 0 ; i < nombreDeChats; i++){
+            this.chats.push(new Chat());
+        }
+
+    }
+}
+
+let mesChats = new Chats(4);
+
+=> j'ai définis les objets de base pour les données de mon quizz
+=> Vérifier sur la console chrome toutes les fonction et l'état de l'objet
+
+Demain :
+
+=> ecrire la fonction qui fait tourner le jeu et 
